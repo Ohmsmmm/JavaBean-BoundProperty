@@ -18,7 +18,7 @@ public class BoundPropertySample {
      */
     public static void main(String[] args) {
         MyPropertyBean mySource = new MyPropertyBean();
-        Listener2 listener1 = new Listener2();
+        Listener1 listener1 = new Listener1();
         Listener2 listener2 = new Listener2();
         mySource.addPropertyChangeListener(listener1);
         mySource.addPropertyChangeListener(listener2);
